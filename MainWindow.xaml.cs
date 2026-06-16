@@ -15,10 +15,10 @@ namespace MediTrack
         {
             var dbService = new DatabaseService();
             var data = dbService.GetMedications();
-            
-             
+
+
             this.DataContext = data;
-            
+
             if (data.Rows.Count > 0)
             {
                 Log.Information($"Успешно загружено {data.Rows.Count} записей из БД.");

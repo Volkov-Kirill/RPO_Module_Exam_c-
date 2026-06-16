@@ -31,14 +31,14 @@ namespace MediTrack
                 using var conn = new NpgsqlConnection(_connectionString);
                 conn.Open();
                 Log.Information("Успешное подключение к базе данных PostgreSQL.");
-                
+
                 using var cmd = new NpgsqlCommand("SELECT * FROM medications", conn);
                 using var adapter = new NpgsqlDataAdapter(cmd);
                 adapter.Fill(table);
             }
             catch (Exception ex)
             {
-                
+
                 Log.Error("Произошла ошибка при загрузке данных.");
             }
             return table;

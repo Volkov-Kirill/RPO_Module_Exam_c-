@@ -5,8 +5,64 @@
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="obj\Debug\net8.0-windows\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\App.g.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\App.g.i.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\MainWindow.g.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\MainWindow.g.i.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\MediTrack.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\MediTrack_Content.g.i.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\net8.0-windows\MediTrack.deps.json" />
+    <Content Include="bin\Debug\net8.0-windows\MediTrack.runtimeconfig.json" />
+    <Content Include="obj\Debug\net8.0-windows\MediTrack.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net8.0-windows\MediTrack.sourcelink.json" />
+    <Content Include="obj\MediTrack.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\debug\net8.0-windows\.env" />
+    <None Include="bin\Debug\net8.0-windows\DotNetEnv.dll" />
+    <None Include="bin\Debug\net8.0-windows\logs\app_20260616.log" />
+    <None Include="bin\Debug\net8.0-windows\MediTrack.dll" />
+    <None Include="bin\Debug\net8.0-windows\MediTrack.exe" />
+    <None Include="bin\Debug\net8.0-windows\MediTrack.pdb" />
+    <None Include="bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll" />
+    <None Include="bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll" />
+    <None Include="bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+    <None Include="bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll" />
+    <None Include="bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll" />
+    <None Include="bin\Debug\net8.0-windows\Npgsql.dll" />
+    <None Include="bin\Debug\net8.0-windows\Serilog.dll" />
+    <None Include="bin\Debug\net8.0-windows\Serilog.Sinks.Console.dll" />
+    <None Include="bin\Debug\net8.0-windows\Serilog.Sinks.File.dll" />
+    <None Include="bin\Debug\net8.0-windows\Superpower.dll" />
+    <None Include="obj\Debug\net8.0-windows\apphost.exe" />
+    <None Include="obj\Debug\net8.0-windows\MainWindow.baml" />
+    <None Include="obj\Debug\net8.0-windows\MediTrack.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net8.0-windows\MediTrack.assets.cache" />
+    <None Include="obj\Debug\net8.0-windows\MediTrack.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net8.0-windows\MediTrack.csproj.BuildWithSkipAnalyzers" />
+    <None Include="obj\Debug\net8.0-windows\MediTrack.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net8.0-windows\MediTrack.csproj.Up2Date" />
+    <None Include="obj\Debug\net8.0-windows\MediTrack.dll" />
+    <None Include="obj\Debug\net8.0-windows\MediTrack.g.resources" />
+    <None Include="obj\Debug\net8.0-windows\MediTrack.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net8.0-windows\MediTrack.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net8.0-windows\MediTrack.pdb" />
+    <None Include="obj\Debug\net8.0-windows\MediTrack_MarkupCompile.cache" />
+    <None Include="obj\Debug\net8.0-windows\MediTrack_MarkupCompile.i.cache" />
+    <None Include="obj\Debug\net8.0-windows\refint\MediTrack.dll" />
+    <None Include="obj\Debug\net8.0-windows\ref\MediTrack.dll" />
+    <None Include="obj\MediTrack.csproj.nuget.g.props" />
+    <None Include="obj\MediTrack.csproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="DotNetEnv" Version="3.2.0" />
     <PackageReference Include="Npgsql" Version="8.0.3" />
     <PackageReference Include="Serilog" Version="3.1.1" />
     <PackageReference Include="Serilog.Sinks.Console" Version="5.0.1" />
